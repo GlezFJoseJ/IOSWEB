@@ -1,0 +1,67 @@
+body {
+            
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.latercera.com/resizer/qs2KySMFmAkaaBfwEkUYHNZrrT8=/1200x630/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/TNXYWBV7UBFERIX6MQZ3EZRP3U.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajusta la altura al 100% de la ventana */
+    color: white; /* Cambia el color del texto para que sea legible en la imagen de fondo */
+}
+
+header {
+    text-align: center;
+    background-color: #333333b2;
+    color: white;
+    padding: 10px;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+main {
+    margin-top: 20px;
+}
+nav {
+    text-align: center;
+    margin-top: .1rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de transparencia */
+    padding: 10px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff; /* Color del texto blanco */
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #33333367;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.381);
+}
+th {
+    background-color: rgba(0, 0, 0, 0.359);
+}
+.report-img {
+    max-width: 100px;
+    max-height: 100px;
+}

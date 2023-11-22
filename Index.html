@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link rel="stylesheet" href="Media\CSS\Index.css">
+</head>
+<body>
+    <audio autoplay>
+        <source src="Media\sonido\souka.mp3" type="audio/mp3">
+        <!-- Puedes agregar múltiples formatos de audio para asegurar la compatibilidad con diferentes navegadores -->
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <header>
+        <h1>Lista de Reportes</h1>
+    </header>
+    <section>
+        <P>Lista de reportes hechos hasta la fecha</P>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                
+                <th>Descripción</th>
+                <th>Fecha y Hora</th>
+                <th>Imagen</th>
+                <th>Latitud</th>
+                <th>Longitud</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for report in reports %}
+            <tr>
+                
+                <td>{{ report[1] }}</td>
+                <td>{{ report[2] }}</td>
+                <td><img src="{{ url_for('static', filename='reports/' + report[3]) }}" class="report-img"></td>
+                <td>{{ report[4] }}</td>
+                <td>{{ report[5] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </main>
+    <footer>
+        <p>&copy; 2023 Goblin Slayer Fan Page</p>
+    </footer>
+</body>
+</html>

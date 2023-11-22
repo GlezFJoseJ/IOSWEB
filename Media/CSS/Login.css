@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pm1.narvii.com/7200/273e8b637891d816a4ee5a4966fc0cbb2f896478r4-736-368_00.jpg'); /* Reemplaza 'tu_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajusta la altura al 100% de la ventana */
+    color: white; /* Cambia el color del texto para que sea legible en la imagen de fondo */
+}
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], button {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover, button:hover {
+            background-color: #45a049;
+        }
